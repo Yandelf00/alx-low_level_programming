@@ -19,7 +19,7 @@ int main(void)
 	while (LETTER <= 'Z')
 	{
 		putchar(LETTER);
-		LETTER;
+		LETTER++;
 	}
 	putchar('\n');
 	return (0);
