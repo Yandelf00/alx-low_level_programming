@@ -16,5 +16,9 @@ return (ps);
 }
 ps++;
 }
+if (!c)
+{
+return (ps);
+}
 return (0);
 }
