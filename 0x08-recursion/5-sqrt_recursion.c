@@ -19,11 +19,11 @@ int sqrtt(int n, int y)
 }
 /**
  *_sqrt_recursion - a function that calculates sqrt of an int.
- *@n:an int.	
+ *@n:an int.
  *Return: returns the sqrt of n.
  */
 int _sqrt_recursion(int n)
 {
-    return (sqrtt(n, 0));
+	return (sqrtt(n, 0));
 }
 
