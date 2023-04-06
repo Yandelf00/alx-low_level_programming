@@ -13,7 +13,7 @@ int sqrtt(int n, int y)
 	}
 	else if (y * y < n)
 	{
-		return (help(n, ++y));
+		return (sqrtt(n, ++y));
 	}
 	return (-1);
 }
