@@ -25,6 +25,6 @@ char *create_array(unsigned int size, char c)
 		*(jomla + i) = c;
 		i++;
 	}
-	return(jomla);
+	return (jomla);
 
 }
