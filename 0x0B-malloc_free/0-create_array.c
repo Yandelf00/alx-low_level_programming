@@ -1,30 +1,29 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
  **create_array - function for creation of array of chars
  *@size: unsigned int that represents the size
- *@c: the character we need
+ *@c: the character we need	
  *Return: 0 for success, else returns NULL.
  */
+
 char *create_array(unsigned int size, char c)
 {
+	char *p = (char *)malloc(size * sizeof(char));
+	unsigned int i;
+
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	char *jomla = (char *)malloc(size * sizeof(char));
-	unsigned int i = 0;
-
-	if (jomla == NULL)
+	if (p == NULL)
 	{
 		return (NULL);
 	}
-	while (i < size)
+	for (i = 0; i < size; i++)
 	{
-		*(jomla + i) = c;
-		i++;
+		*(p + i) = c;
 	}
-	return (jomla);
-
+	return (p);
 }
