@@ -4,7 +4,7 @@
 /**
  **create_array - function for creation of array of chars
  *@size: unsigned int that represents the size
- *@c: the character we need	
+ *@c: the character we need
  *Return: 0 for success, else returns NULL.
  */
 
