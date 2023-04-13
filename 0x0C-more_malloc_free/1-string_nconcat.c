@@ -5,7 +5,6 @@
  *@s: string or smtg
  *Return: counter
  */
-
 int _strlen(char *s)
 {
 	int counter = 0;
@@ -17,7 +16,6 @@ int _strlen(char *s)
 	}
 	return (counter);
 }
-
 /**
  *string_nconcat - function that concatenates two strings
  *@s1: our first string
