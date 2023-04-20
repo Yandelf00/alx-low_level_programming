@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 
 	va_start(valist, format);
 
-	while (*format)
+	while (format && format[i])
 	{
 		if (m)
 			printf(", ");
@@ -37,11 +37,11 @@ void print_all(const char * const format, ...)
 			break;
 		default:
 			m = 0;
-			*(format + i);
+			i++;
 			continue;
 		}
 		m = 1;
-		*(format + i);
+		i++;
 	}
 	printf("\n");
 	va_end(valist);
