@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		else
 		{
-			printf("%s", str);
+			printf("%s", x);
 		}
 		if (separator != NULL && i < n - 1)
 		{
