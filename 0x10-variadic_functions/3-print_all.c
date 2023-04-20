@@ -37,11 +37,11 @@ void print_all(const char * const format, ...)
 			break;
 		default:
 			m = 0;
-			format++;
+			*(format + i);
 			continue;
 		}
 		m = 1;
-		format++;
+		*(format + i);
 	}
 	printf("\n");
 	va_end(valist);
