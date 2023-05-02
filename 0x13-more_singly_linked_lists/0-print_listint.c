@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - func that print the elements of linked list 
+ * print_listint - func that print the elements of linked list
  * @h: pointer to first element
  * Return: the number of elements
  */
