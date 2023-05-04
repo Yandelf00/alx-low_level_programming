@@ -2,7 +2,7 @@
 
 /**
   * get_bit - a func that returns the value of a bit at a given index
-  * @n: a number 
+  * @n: a number
   * @index: our index
   * Return: the value of the bit at index, -1 if it fails
   */
